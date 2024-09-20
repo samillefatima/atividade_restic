@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f5f5f5; 
+    background-color: #f0f0f0; 
 }
   /*Início cabeçalho */
 header {
@@ -104,4 +104,67 @@ nav {
 }
   }
 
-/*Fim cabeçalho */
+/*Fim cabeçalho margin: 0; */
+
+/* Início Introdução*/
+.introducao {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  
+    padding-left: 2rem;
+
+
+    background-image: url('./imagens/teste.png'); /* Substitua por sua imagem */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    color: #fff;
+    padding: 2rem;
+    display: flex;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 3rem;
+    color: #006400;
+}
+
+
+.p_principal {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    width: 63%; 
+    word-wrap: break-word;
+    color: #333;
+    font-family: Georgia, serif;
+}
+/* Fim Introdução*/
+
+/* Início Section Hábito*/
+.sec_habito {
+    text-align: center;
+    padding: 50px;
+    background-color:#f0f0f0;
+  }
+  
+  .sec_habito h2 {
+    color: #006400;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .sec_habito p {
+    color: #333;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  /* Fim Section Hábito*/
