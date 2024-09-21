@@ -167,4 +167,82 @@ h1 {
     line-height: 1.6;
   }
 
-  /* Fim Section Hábito*/
+  /* Fim Section Hábito  background-color: #f5f5f5;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+
+.sec_alimentacao {
+    
+   
+}
+.container_alimentacao{
+display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  max-width: 800px;
+  margin: 0 auto; 
+  background-color: #f9f9f9; /* Fundo suave */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+ #h3_a {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #2c3e50; /* Cor mais escura */
+    font-family: 'Arial', sans-serif; /* Fonte limpa */
+  }
+  
+  
+#p_a {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #34495e; /* Cor mais suave */
+    text-align: justify;
+  }
+  #img_a {
+    max-width: 40%; /* Aumenta a largura da imagem */
+    height: auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s; /* Efeito de transição */
+  }
+  
+  #img_a:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+  }
+  
+  /* Adicionando margens para melhorar o espaçamento */
+  .container_alimentacao > div {
+    margin-right: 20px;
+  }
+
+/*
+ .sec_alimentacao h4 {
+    font-size: 22px;
+    margin-top: 30px;
+    color: #333;
+  }
+  
+ .sec_alimentacao ol {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+ .sec_alimentacao li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+ .sec_alimentacao li:hover {
+    background-color:  
+   #e6f7ff;
+    cursor: pointer;
+  }
+    */
