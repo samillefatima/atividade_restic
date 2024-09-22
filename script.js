@@ -37,12 +37,11 @@ class Mobilenavbar {
 }    
 
 const mobilenavbar = new Mobilenavbar(
-    ".menu-icon",
-    ".nav-list",
-    ".nav-list li",
+    ".menu_icone",
+    ".nav_list",
+    ".nav_list li",
 );
 mobilenavbar.init();
-
 
 document.getElementById('saiba_mais_btn').addEventListener('click', function() {
     var moreInfo = document.getElementById('more-info');
