@@ -42,3 +42,17 @@ const mobilenavbar = new Mobilenavbar(
     ".nav-list li",
 );
 mobilenavbar.init();
+
+
+document.getElementById('saiba_mais_btn').addEventListener('click', function() {
+    var moreInfo = document.getElementById('more-info');
+    if (moreInfo.classList.contains('hidden')) {
+        moreInfo.classList.remove('hidden');
+        moreInfo.classList.add('show');
+        this.innerText = 'Mostrar menos';
+    } else {
+        moreInfo.classList.add('hidden');
+        moreInfo.classList.remove('show');
+        this.innerText = 'Saiba mais';
+    }
+});
