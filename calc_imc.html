@@ -3,24 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de IMC</title>
+    <title>Vitalis</title>
+    <link rel="stylesheet" href="./style_calc_imc.css">
 </head>
 <body>
-    <header></header>
-        <h1>Calculadora de IMC</h1>
+  <header>
+        <nav>
+            <a class="logo" href="#home">Vitalis</a>
+            <div class="menu_icone">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="div_center">
+                <ul class="nav_list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#alimentacao">Alimentação</a></li>
+                    <li><a href="#exercicio">Exercícios</a></li>
+                    <li><a href="#saude-mental">Saúde Mental</a></li>
+                    <li><a href="calculadora-imc.html">Calculadora IMC</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
-    <main>  
 
+    <main>  
+        <section>
+        <h1>Calculadora de IMC</h1>
         <form id="form-imc">
-            <label for="peso">Peso (kg):</label>
+            <label for="number">Peso (kg):</label>
             <input type="number" id="peso" name="peso" required>
             <label for="altura">Altura (m):</label>
-            <input type="number" id="altura" name="altura"  
- required step="0.01">
+            <input type="number" id="altura" name="altura"  required step="0.01">
             <button type="button" onclick="calcularIMC()">Calcular</button>
         </form>
         <div id="resultado"></div>
-    </main>
-    <script src="script.js"></script>
+    </section>
+</main>
 </body>
 </html>
